@@ -16,17 +16,21 @@
 >>> len(s)
 5
 >>> 
-#python script to reverse a given number
-n=int(input('enter the number'))
-rev=0
-while n!=0:
-    r=n%10
-    rev=rev*10+r
-    n=n//10
-print('reversed number=',rev)
+#python script to get the bill amount
+pa=int(input('enter the bill amount:'))
+if pa>=1000:
+    d=0.1*pa
+    print('discount=',d)
+else:
+    d=0.05*pa
+    print('discount=',d)
+a=pa-d
+print(a)
 #output
-enter the number123456
-reversed number= 654321
+enter the bill amount:1500
+discount= 150.0
+1350.0
+
 #1.2) Implement a python script to purposefully raise Indentation Error and Correct it
 #with indentation error
 i=1
