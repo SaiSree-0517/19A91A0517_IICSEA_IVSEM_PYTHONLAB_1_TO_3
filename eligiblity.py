@@ -1,5 +1,5 @@
 """
-Implement a python script for checking whether the citizen is eligible for vote or not
+3.1Implement a python script for checking whether the citizen is eligible for vote or not
 """
 age=int(input("enter age :"))
 if age>=18:
