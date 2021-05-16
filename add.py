@@ -1,5 +1,5 @@
 """
-2.1Implement a python script add.py that takes 2
+2.2Implement a python script add.py that takes 2
 numbers as command line arguments and perform arithmetic operations on them.
 
 """
