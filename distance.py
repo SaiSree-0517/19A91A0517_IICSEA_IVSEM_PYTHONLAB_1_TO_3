@@ -1,5 +1,5 @@
 """
-Implement a python script to compute
+2.1Implement a python script to compute
 distance between two points taking inp from the user (Pythagorean Theorem)
 """
 x1=int(input("enter x1 : "))
